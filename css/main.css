@@ -1,0 +1,51 @@
+/* Basic Reset */
+body, html {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+body {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+/* #main | Modifica a conveniencia */
+#main {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Botón con Modificaciones para ser FullScreen */
+.btn-1 {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif !important;
+    padding: 8px 24px;
+    background-color: #ffb61e;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    border-radius: 250px;
+    font-size: 100% !important;
+    font-weight: 400;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+    /* Mods */
+        max-width: 600px;
+        width: 100%;
+        display: block;
+}
+
+.btn1:hover, .btn1:focus {
+    -webkit-box-shadow: 0 0 30px 0 #ffb61e;
+            box-shadow: 0 0 30px 0 #ffb61e;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+@media(max-width: 600px) {
+    .btn-1 {
+        padding: 5px 15px;
+        font-size: 85% !important;
+    }
+}
